@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/home_tablayout"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="#5a5a5a"
+        app:tabRippleColor="#ff0ff0"
+        app:tabTextColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/container"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_market"
+
+            android:id="@+id/tab_add_market"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_product"
+            android:id="@+id/tab_add_product"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_prod_to_market"
+            android:id="@+id/tab_add_prod_to_market"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_product"
+            android:id="@+id/tab_search_product"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/find_the_best_prise"
+            android:id="@+id/tab_find_the_price"/>
+    </com.google.android.material.tabs.TabLayout>
+
+   <FrameLayout
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/home_tablayout"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       app:layout_constraintVertical_weight="1"
+       android:id="@+id/container"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

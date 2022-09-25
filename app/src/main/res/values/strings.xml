@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">SuperMarketManagment</string>
+    <string name="txt_tv_main_user_name">User Name</string>
+    <string name="txt_tv_main_password">Password</string>
+    <string name="hint_et_main_password">Enter your Password ,please</string>
+    <string name="txt_btn_main_login">Login</string>
+    <string name="error_empty_fields">fill the empty fields ,please</string>
+    <string name="add_market">Add Market</string>
+    <string name="add_product">Add Product</string>
+    <string name="add_prod_to_market">Add prod to Market</string>
+    <string name="search_market">Search Market</string>
+    <string name="search_product">Search Product</string>
+    <string name="find_the_best_prise">Find the Best Prise</string>
+    <string name="hint_et_main_username">Enter your username ,please</string>
+
+    <!--  String Array for Tabs -->
+    <string-array name="tabNames">
+        <item>@string/add_market</item>
+        <item>@string/add_product</item>
+        <item>@string/add_prod_to_market</item>
+        <item>@string/search_market</item>
+        <item>@string/search_product</item>
+        <item>@string/find_the_best_prise</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- start string for market -->
+    <string name="addMarket_frag_ET_address">Enter the market address</string>
+    <string name="addMarket_frag_TV_txt_address">Address</string>
+    <string name="addMarket_frag_TV_txt_phone_number">Phone Number</string>
+    <string name="addMarket_frag_ET_hint_phone_number">Enter the market phone number</string>
+    <string name="addMarket_frag_TV_txt_name">Name</string>
+    <string name="addMarket_frag_ET_hint_name">Enter the market name</string>
+    <!-- end string for market -->
+    <string name="addMarket_frag_BTN_txt_save">Save</string>
+    <string name="addMarket_frag_BTN_txt_cancel">Cancel</string>
+    <string name="Add_Product_Frag_TV_txt_code">Code</string>
+    <string name="Add_Product_Frag_ET_hint_code">Enter the code of the product</string>
+    <string name="Add_Product_Frag_TV_txt_name">Name</string>
+    <string name="Add_Product_Frag_ET_hint_name">Enter the name of the product</string>
+    <string name="Add_Product_Frag_TV_txt_phone_number">Phone Number</string>
+    <string name="Add_Product_Frag_ET_hint_supplier">Enter the supplier</string>
+    <string name="Add_Product_Frag_TV_txt_supplier">Supplier</string>
+    <string name="Add_Product_frag_TV_txt_production_date">Production Date</string>
+    <string name="Add_Product_frag_ET_hint_production_date">dd/MM/yyyy</string>
+    <string name="Add_Product_frag_ET_hint_expire_date">dd/MM/yyyy</string>
+    <string name="Add_Product_frag_TV_txt_expire_date">Expire Date</string>
+    <string name="prod_to_mark_TV_txt_name">Search with name</string>
+    <string name="prod_to_mark_ET_hint_name">Enter the name of the product</string>
+    <string name="prod_to_mark_TV_txt_code">Search with code</string>
+    <string name="prod_to_mark_ET_hint_code">Enter the code of the product</string>
+    <string name="ET_hint_date">dd/MM/yyyy</string>
+    <string name="btn_add_to_market">Add to Market</string>
+    <string name="select_market">Choose Market</string>
+    <string name="enter_price">Enter the price of the product</string>
+    <string name="add_prod_market_BTN_cancel">Cancel</string>
+    <string name="enter_the_code_to_search_for_product">Enter the code to search for Product</string>
+    <string name="search_prod_frag_BTN_txt_save">save</string>
+    <string name="search_prod_frag_BTN_txt_edit">Edit</string>
+    <string name="search_prod_frag_BTN_txt_delete">Delete</string>
+    <string name="search_product_frag_ET_id_search">Search Product</string>
+    <string name="search_market_btn_txt_display_markets">Display markets</string>
+    <string name="search_market_ET_hint_name">Enter the market name</string>
+    <string name="find_product_price_product_name">Product Name</string>
+    <string name="find_the_price_BTN_id">find the price</string>
+
+
+</resources>

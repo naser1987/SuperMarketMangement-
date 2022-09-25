@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+    android:gravity="center"
+    tools:context=".MainActivity" >
+    <LinearLayout
+        android:id="@+id/LL_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+
+            android:gravity="center"
+            android:id="@+id/TV_userName"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/txt_tv_main_user_name"/>
+        <EditText
+            android:id="@+id/ET_userName"
+            android:inputType="text"
+            android:autofillHints="UserName"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:hint="@string/hint_et_main_username"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+
+            android:gravity="center"
+            android:id="@+id/TV_password"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/txt_tv_main_password"/>
+        <EditText
+            android:id="@+id/ET_password"
+            android:inputType="textPassword"
+            android:autofillHints="Password"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:hint="@string/hint_et_main_password"
+             />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/LL_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/BTN_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_btn_main_login"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
